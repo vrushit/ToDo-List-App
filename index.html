@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            TODO List
+        </title>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600" rel="stylesheet" type="text/css">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <div class="CoverAll">
+            
+            <div class="top">
+                
+                    <div class="TODO">
+                        <div class="TODO__title">
+                            Tasks Left for <span class="TODO__title--month">%Date%</span>:
+                        </div>
+                        
+                       <div class="TODO__value">%TASK%</div> 
+                        
+                        <div class="TODO__i clearfix">
+                            <div class="TODO__i--text">Day</div>
+                            <div class="right">
+                                <div class="TODO__i--value">%Day%</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+        <div class="bottom">
+            <div class="add">
+                <div class="add__container">
+                    <input type="text" class="add__description" placeholder="Add description">
+                    <input type="text" class="add__value" placeholder="Add Timings" pattern="[0-9][-][0-9]">
+                    <button class="add__btn"><i class="ion-ios-checkmark-outline"></i></button>
+                </div>
+            </div>
+
+            <div class="container clearfix">
+                <div class="TODOL">
+                    <h2 class="list__title">TODO List</h2>
+                    
+                    <div class="i__list">
+                       
+                        <!--
+                        <div class="item clearfix" id="income-0">
+                            <div class="item__description">Salary</div>
+                            <div class="right clearfix">
+                                <div class="item__value">+ 2,100.00</div>
+                                <div class="item__delete">
+                                    <button class="item__delete--btn">
+                                        <i class="ion-ios-close-outline"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="item clearfix" id="income-1">
+                            <div class="item__description">Sold car</div>
+                            <div class="right clearfix">
+                                <div class="item__value">+ 1,500.00</div>
+                                <div class="item__delete">
+                                    <button class="item__delete--btn"><i class="ion-ios-close-outline"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        -->
+                        
+                    </div>
+                </div>
+            </div>
+        <script src="app.js"></script>
+    </body>
+</html>
